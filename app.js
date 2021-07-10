@@ -23,7 +23,6 @@ Ps: se você não conseguiu fazer tudo o que foi pedido acima, abra a issue mesm
 */
 
 const form = document.querySelector('.quiz-form')
-const divs = document.querySelectorAll('.divs-perguntas')
 
 const correctAnswers = ['A', 'B', 'A', 'B']
 
