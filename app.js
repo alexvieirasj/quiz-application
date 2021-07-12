@@ -44,6 +44,6 @@ form.addEventListener('submit', event => {
         }  
     })
 
-    alert('Você acertou {$score}% do Quiz')
+    alert(`Você acertou ${score}% do Quiz`)
 })
 
