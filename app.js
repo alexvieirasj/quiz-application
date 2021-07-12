@@ -38,13 +38,12 @@ form.addEventListener('submit', event => {
         form.inputQuestion4.value
     ]
 
-    usersAnswers.forEach((usersAnswer, index) => {
-       
-        if(usersAnswer === correctAnswers[index]){
+    usersAnswers.forEach((userAnswer, index) => {
+        if(userAnswer === correctAnswers[index]){
             score += 25
         }  
     })
 
-    alert('Voce acertou ' + score + '% do Quiz')
+    alert('Você acertou {$score}% do Quiz')
 })
 
