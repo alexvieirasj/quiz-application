@@ -84,13 +84,16 @@ const animateFinalScore = () => {
     }, 10)
 }
 
+const resetUserScore = () => {
+    score = 0
+}
+
 form.addEventListener('submit', event => {
     event.preventDefault()
-    
-    score = 0
-    
+
     const userAnswers = getUserAnswers()
 
+    resetUserScore()
     calculateUserScore(userAnswers)
     showFinalScore()
     animateFinalScore()
