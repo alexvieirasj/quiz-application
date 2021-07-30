@@ -1,2 +1,2 @@
 # quiz-application
-Aplicação Quiz em Javascript
+Aplicação Quiz em Javascript, CSS e Bootstrap
