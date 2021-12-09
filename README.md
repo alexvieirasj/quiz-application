@@ -1,2 +1,2 @@
 # quiz-application
-Aplicação Quiz feito com as tecnologias Javascript, CSS e Bootstrap.
+Aplicação Quiz feito com as tecnologias Javascript, CSS e Bootstrap para praticar a parte do frontend.
